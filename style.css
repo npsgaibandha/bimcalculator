@@ -1,0 +1,97 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat";
+  background: rgba(175, 224, 253, 0.9450980392);
+  font-weight: 300;
+}
+body #main {
+  background: #5fa3f0;
+  width: 95%;
+  margin: 20px auto;
+  border: 2px solid #43b150;
+  border-radius: 10px;
+  padding: 20px 30px;
+}
+body #main h1 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+body #main form {
+  border: 1px solid #80d3ec;
+  padding: 20px 30px;
+  border-radius: 10px;
+  margin: 5px 0;
+}
+body #main form label {
+  display: block;
+  color: #fff;
+}
+body #main form input {
+  border: 0;
+  width: 100%;
+  padding: 10px 30px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+body #main form input:focus {
+  outline: 1.5px solid #e9ff7a;
+}
+body #main form #button {
+  border: 0;
+  padding: 13px 24px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 10px;
+  color: #fff;
+  background: linear-gradient(120deg, #37a5bb, #3adaef);
+  cursor: pointer;
+  transition: 1s;
+}
+body #main form #button:hover {
+  background: #94d6ff;
+  color: #0497c7;
+}
+body #main .result {
+  margin-top: 20px;
+  background: #4db7f8;
+  padding: 20px 25px;
+  border: 1px solid #80d3ec;
+  border-radius: 10px;
+  color: #fff;
+  display: none;
+}
+body #main .result #score {
+  margin-top: 20px;
+  background: #ddd;
+  width: 100px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #000;
+}
+body #main .result #resultInfo {
+  margin-top: 10px;
+}
+body #main .info {
+  margin-top: 20px;
+  background: #a7d5f2;
+  padding: 20px;
+  border-radius: 10px;
+}
+body #main .info h4 {
+  font-size: 15px;
+}
+body #main .info pre {
+  font-size: 15px;
+  margin-top: 10px;
+}/*# sourceMappingURL=style.css.map */
